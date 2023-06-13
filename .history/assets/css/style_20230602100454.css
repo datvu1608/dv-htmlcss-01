@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Common */
+:root {
+  --primary-color: #0f1b4c;
+}
+a {
+  text-decoration: none;
+}
+.content {
+  width: 1110px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  display: inline-block;
+  padding: 18px 16px;
+  min-width: 98px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #fff;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+/* Header */
+.header {
+  position: relative;
+  height: calc(100vh);
+  background: #e6f0ff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 38px;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: 50px;
+}
+
+.navbar .actions {
+  margin-left: auto;
+}
+.navbar ul a {
+  font-weight: 500;
+  font-size: 1s4rem;
+  color: #4f5361;
+  padding: 8px 1.4rem;
+}
+.navbar ul a:hover {
+  text-decoration: underline;
+}
+.navbar .action-link {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.navbar .action-btn {
+  padding: 13px 16px;
+  margin-left: 18px;
+}
+/* hero */
+.hero {
+  margin-top: 130px;
+}
+.hero .info {
+  max-width: 51%;
+}
+.hero .sub-title {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #687690;
+}
+.hero .title {
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 6.2rem;
+  line-height: 1.19;
+  color: #000336;
+}
+.hero .desc {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  color: #5a6473;
+}
+
+.hero-cta {
+  min-width: 170px;
+  margin-top: 40px;
+}
+.hero-img {
+  position: absolute;
+  right: calc((100vw - 1110px) / 2 - 100px);
+  bottom: 0px;
+}
+
+/* clients   */
+.clients {
+  margin-top: 122px;
+}
+.clients .row {
+  display: flex;
+  justify-content: space-between;
+}
+.clients .desc {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  color: #7d8589;
+}
+.clients .row-desc {
+  margin-top: 23px;
+}
+.clients .images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 96px;
+}

@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/* Common */
+.content {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+.header {
+  width: 1440px;
+  height: 100vh;
+  background: #e6f0ff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar img {
+  margin-right: 64px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .actions {
+  margin-left: auto;
+}
+.navbar ul li a {
+  font-weight: 500;
+  font-size: 14rem;
+  color: #4f5361;
+}

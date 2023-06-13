@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins';
+}
+/* Header */
+.header {
+  width: 1440px;
+  height: 100vh;
+  background: #e6f0ff;
+}
+.content {
+}
